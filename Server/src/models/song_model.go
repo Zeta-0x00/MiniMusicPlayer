@@ -6,10 +6,10 @@ import (
 )
 
 type Song struct {
-	Name   string `json:"name"`
-	Artist string `json:"artist"`
-	Genre  string `json:"genre"`
-	Path   string `json:"path"`
+	Name   string `json:"Name"`
+	Artist string `json:"Artist"`
+	Genre  string `json:"Genre"`
+	Path   string `json:"FilePath"`
 }
 
 type SongList struct {
